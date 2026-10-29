@@ -1,0 +1,7 @@
+scenario,batches_mean,batches_sd,reactor_util,line_util,cip_util,reactor_blocked,peak_wfi_m3_h,wfi_m3_year,peak_steam_kg_h,bottleneck
+"Base: 3 reactors, 1 line, 1 CIP",135.2,0.632,0.947,0.85,0.138,0.043,2.921,2430.6,250.0,Bioreactors
++1 reactor (4 reactors),138.7,0.949,0.73,0.871,0.143,0.262,2.938,2494.865,250.0,Purification
++1 purification line,140.9,0.738,0.988,0.445,0.145,0.001,2.929,2539.651,260.731,Bioreactors
++1 line and +1 reactor,187.3,0.675,0.986,0.592,0.193,0.003,2.921,3378.921,257.787,Bioreactors
+"+1 line, +1 reactor, +1 CIP",187.9,0.568,0.989,0.593,0.097,0.003,5.157,3387.819,500.0,Bioreactors
+"+1 line, +1 reactor, +1 CIP, staggered 24 h",186.3,1.059,0.981,0.587,0.096,0.004,4.658,3358.2,358.763,Bioreactors
